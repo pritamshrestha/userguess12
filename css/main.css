@@ -1,0 +1,36 @@
+.success{
+	color:yellow;
+	font-size:30px;
+	text-align: center;
+}
+.failure{color:red;
+         font-size: 30px;
+         text-align:center;}
+/*this is the background image for the body*/
+body{background-image: url(../img/wood1.jpg)}
+
+#one{color:yellow;
+    font-size:60px;}
+
+/*this is for the media queries*/
+@media(max-width: 992px){
+	#one{color:yellow;
+	     font-size: 30px;}
+}
+
+@media(max-width: 400px){
+	#one{color:yellow;
+	     font-size: 20px;}
+}
+@media(max-width: 400px){
+	.failure{color:red;
+	     font-size: 20px;}
+}
+@media(max-width: 400px){
+	.success{color:yellow;
+	     font-size: 20px;}
+}
+@media(max-width: 770px){
+	.failure{color:yellow;
+	     font-size: 46px;}
+}
